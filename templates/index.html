@@ -1,19 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello Flask</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="{{ url_for('index') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
-            <li><a href="{{ url_for('contact') }}">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>Home Page</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+          <a href="post.html">
+            <h2 class="post-title">
+              Ice Ice Baby
+            </h2>
+            <h3 class="post-subtitle">
+              How to frost in style
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Cake Crafts</a>
+            on September 24, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="post.html">
+            <h2 class="post-title">
+              Hidden Treasures.
+            </h2>
+            <h3 class="post-subtitle">
+              Bake sweet treats inside for a fun surprise
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Cake Crafts</a>
+            on September 18, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="post.html">
+            <h2 class="post-title">
+              Christmas coming up?
+            </h2>
+            <h3 class="post-subtitle">
+              Get prepping for the perfect Christmas cake.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Cake Crafts</a>
+            on August 24, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="post.html">
+            <h2 class="post-title">
+              Get the best tools for the job
+            </h2>
+            <h3 class="post-subtitle">
+              I review the top piping sets on the market.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Cake Crafts</a>
+            on July 8, 2019</p>
+        </div>
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+

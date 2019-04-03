@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello Flask</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="{{ url_for('index') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
-            <li><a href="{{ url_for('contact') }}">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>About Page</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    <h1>About</h1>
+    <p> Cake Crafts is a small project run by a mad cake enthusiast who just wants cakes to be more beautiful</p>
+    <p> Look here for inspiration, recipes and techniques to make your next cake extra special</p>
+{% endblock %}
