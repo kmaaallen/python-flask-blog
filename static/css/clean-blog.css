@@ -407,3 +407,14 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+/* ---- custom styling-----*/
+.cake-img{
+  height:300px;
+  width:600px;
+  margin-top:50px;
+}
+
+p{
+  margin-top:50px;
+}
