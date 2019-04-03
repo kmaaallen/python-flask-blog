@@ -411,10 +411,14 @@ footer .copyright {
 /* ---- custom styling-----*/
 .cake-img{
   height:300px;
-  width:600px;
+  width:500px;
   margin-top:50px;
 }
 
 p{
   margin-top:50px;
+}
+
+.right-align{
+  padding-left:100px;
 }
