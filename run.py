@@ -3,7 +3,11 @@ import json
 from flask import Flask
 from flask import render_template
 from flask import request
+from flask import flash
+
 app = Flask(__name__)
+app.secret_key = 'some_secret'
+
 
 @app.route ("/")
 def index():
@@ -16,7 +20,7 @@ def about():
 @app.route ("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
-        print(request.form)
+        flash("Thanks {} we have received your message!".format(request.form["name"]))
     return render_template("contact.html", page_title="Contact Us")
 
 @app.route ("/recipes")
