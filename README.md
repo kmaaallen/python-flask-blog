@@ -3,6 +3,8 @@
 This project uses Python, Flask and Bootstrap to create a simple demonstration cake crafts blog.
 It is based on a project created for Code Insitute's Diploma in Software Development.
 
+The site can be viewed at: https://kmaaallen.github.io/python-flask-blog/
+
 ## Credits
 Stock images:<br>
 Header image: https://www.pexels.com/photo/close-up-photography-of-cake-with-flower-decor-1070850/<br>
