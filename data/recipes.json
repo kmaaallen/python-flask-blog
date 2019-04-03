@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Mary Berry's Easy Chocolate Cake",
+        "tagline": "Mary hasn't let me down yet, this is a firm favourite!",
+        "ingredients": ["225g/8oz unsalted butter, softened, plus extra for greasing", "225g/8oz caster sugar, plus extra for sprinkling",
+        "4 free-range eggs", "220g/7¾oz self-raising flour", "2 tsp baking powder", "50g/1¾oz cocoa powder"],
+        "method": ["Preheat the oven to 180C/160C Fan/Gas 4. Lightly butter two loose-bottomed 20cm/8in sandwich tins and line the bases with baking paper.",
+        "Put the butter, sugar, eggs, flour, baking powder and cocoa in a large bowl and beat for 2 minutes, or until just blended. (An electric mixer is best for this, but you can also beat by hand using a wooden spoon.)",
+        "Divide the mixture evenly between the tins. Level the surface using a spatula or the back of a spoon.",
+        "Bake for 25-30 minutes. The tops of the cakes should spring back when pressed lightly with a finger. Leave the cakes to cool in the tins for 5 minutes. Run a small palette knife around the edge of the tins, then carefully turn the cakes out onto a wire rack. Peel off the paper and leave to cool completely.",
+        "Choose the cake with the best top, then put the other cake top-down onto a serving plate. Spread with the jam and whipped cream, put the other cake on top (top upwards) and sprinkle with caster sugar to serve."],
+        "image_source":"https://c.pxhere.com/photos/5b/b5/cake_chocolate_cream_dessert_delicious_birthday_brown_bakery-867420.jpg!d",
+        "recipe_url":"https://www.bbc.com/food/recipes/definitivechocolatec_72226"
+    },
+    {
+        "title": "Red Velvet Cake",
+        "tagline": "Like chocolate cake but better...",
+        "ingredients": ["150g/5½oz golden caster sugar", "1 tsp vanilla extract", "3 free-range eggs , lightly beaten", "4 tbsp Greek-style yoghurt",
+        "1-2 drops red food colouring gel", "150g/5½oz self-raising flour", "50g/1¾oz cocoa powder", "1 tbsp semi-skimmed milk"],
+        "method":["Pre heat the oven to 170C/150C Fan/gas 3. Grease and line a deep, round 15cm/6in tin.", "Beat the butter, sugar and vanilla together in a bowl until pale and fluffy. Add the eggs one at a time, beating after each addition (if the mixture looks curdled add a spoonful of the flour.)",
+        "Mix the yogurt with the food colouring - it should look very, very red since the mixture will fade once cooked. Beat the yogurt into the cake mixture.",
+        "Fold in the remaining flour and cocoa powder, followed by the milk until well combined. Spoon the mixture into the cake tin and bake for 1 hour 20 minutes or until well risen and golden-brown and a skewer inserted into the middle comes out clean.", 
+        "Remove the cake from the tin and leave to cool for five minutes, then place onto a cooling rack and set aside to cool completely."],
+        "image_source":"https://images.pexels.com/photos/806363/pexels-photo-806363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "recipe_url":"https://www.bbc.com/food/recipes/red_velvet_cake_70743"
+    }]
+
+    
+
+
+
+
